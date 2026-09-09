@@ -27,11 +27,6 @@ A lo largo de mi formación y proyectos, he trabajado y desarrollado soluciones 
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-11355c?style=for-the-badge&logo=mysql&logoColor=white)
 
-### ⚙️ Fundamentos de Compiladores & Lenguajes Formales
-*(Experiencia diseñando gramáticas y analizadores sintácticos)*
-- **Modelado de Gramáticas**: GLC, EBNF, Análisis Predictivo LL(1) 
-- **Estructuración de Código**: Árbol Sintáctico Abstracto (AST), Lexer y Parser Descendente Recursivo
-
 ### 🛠️ Herramientas & Entornos
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
