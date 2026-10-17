@@ -3,7 +3,7 @@ Cursando la Licenciatura en Sistemas de Información. Busco posición como Desar
 
 ## 🚀 Sobre mí
 - Estudiante y desarrollador con foco en backend, arquitecturas en capas y modelado de datos.
-- Interés en concurrencia, control de versiones de datos y patrones de diseño.
+- Interés en concurrencia, control de concurrencia y patrones de diseño.
 - Práctica en diseño de APIs REST e integración con bases de datos relacionales.
 
 ## 🛠️ Stack técnico
@@ -36,8 +36,9 @@ Stack: Next.js 14, Express, TypeScript, TypeORM, MySQL, Mercado Pago.
 - Flujo de pago con estados PAGO_PENDIENTE, CONFIRMADO y CANCELADO.
 - Implementación de la lógica de backend para manejo de reservas y pagos.
 - Aplicación de patrones State y Strategy para modelar estados y comportamientos de pago.
+Mi aporte: Implementé el flujo de pago y los estados del turno.
 
-Repositorio: https://github.com/XyonaX/sistema-turnos-isii-grupo38
+Repositorio: https://github.com/LisandroGomez-Dev/sistema-turnos-isii-grupo38
 
 ---
 
@@ -47,9 +48,9 @@ Stack: C#, .NET Framework 4.7.2, WinForms, SQL Server.
 - Arquitectura en capas: UI, Domain, Data, Services; patrón Repository aplicado.
 - Funcionalidades: login con BCrypt, backups, módulos de ventas, productos, clientes e inventario.
 - Enfoque en separación de responsabilidades y pruebas de negocio.
-Mi aporte: Participé en el desarrollo Backend.
+Mi aporte: Desarrollé el login con BCrypt y el módulo de ventas
 
-Repositorio: https://github.com/XyonaX/Proyecto-TallerProgramacion2
+Repositorio: https://github.com/LisandroGomez-Dev/Proyecto-TallerProgramacion2
 
 ## ✉️ Contacto
 - LinkedIn: https://www.linkedin.com/in/lisandro-gomez-041083327/
