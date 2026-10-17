@@ -89,5 +89,3 @@ Repositorio: https://github.com/LisandroGomez-Dev/Proyecto-TallerProgramacion2
 - Ubicación actual: Corrientes, Argentina.
 
 ---
-
-Si quieres, puedo ayudarte a dejar este README en una versión aún más impactante para recruiters, con estilo más premium, más técnica o incluso en inglés para aplicar a empresas internacionales.
