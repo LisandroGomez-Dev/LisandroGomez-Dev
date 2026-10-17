@@ -47,7 +47,7 @@ Stack: C#, .NET Framework 4.7.2, WinForms, SQL Server.
 - Arquitectura en capas: UI, Domain, Data, Services; patrón Repository aplicado.
 - Funcionalidades: login con BCrypt, backups, módulos de ventas, productos, clientes e inventario.
 - Enfoque en separación de responsabilidades y pruebas de negocio.
-Mi aporte: Participé en el desarrollo; detalles no especificados.
+Mi aporte: Participé en el desarrollo Backend.
 
 Repositorio: https://github.com/XyonaX/Proyecto-TallerProgramacion2
 
