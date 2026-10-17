@@ -35,3 +35,5 @@ A lo largo de mi formación y proyectos, he trabajado y desarrollado soluciones 
 ## 📌 Proyectos Destacados
 - 📦 **[Sistema de Inventario](https://github.com/XyonaX/Proyecto-TallerProgramacion2.git)**: Aplicación de escritorio desarrollada en **C#** con **Windows Forms**, enfocada en el control de stock [...]
 - 📆 **[TurnoFacil](https://github.com/XyonaX/sistema-turnos-isii-grupo38.git)**: Sistema de turnos optimizado.
+- ⚙️ **[Motor de Gestión de Inventario (Bloqueo Optimista)](https://github.com/LisandroGomez10/motor-gestion-inventario-bloqueo-optimista.git)**: Motor de inventario diseñado para escenarios de alta concurrencia que resuelve condiciones de carrera y sobreventa mediante bloqueo optimista (JPA @Version). Implementado con Java 21, Spring Boot, PostgreSQL (Flyway para migraciones), y un frontend en React + Vite; incluye simulador de concurrencia, manejo de conflictos (409 Conflict) y despliegue con Docker.
+
