@@ -26,14 +26,16 @@ A lo largo de mi formación y proyectos, he trabajado y desarrollado soluciones 
 ### 🗄️ Bases de Datos (Modelado y Normalización)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-11355c?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/postgresql-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ### 🛠️ Herramientas & Entornos
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ## 📌 Proyectos Destacados
 - 📦 **[Sistema de Inventario](https://github.com/XyonaX/Proyecto-TallerProgramacion2.git)**: Aplicación de escritorio desarrollada en **C#** con **Windows Forms**, enfocada en el control de stock [...]
 - 📆 **[TurnoFacil](https://github.com/XyonaX/sistema-turnos-isii-grupo38.git)**: Sistema de turnos optimizado.
-- ⚙️ **[Motor de Gestión de Inventario (Bloqueo Optimista)](https://github.com/LisandroGomez10/motor-gestion-inventario-bloqueo-optimista.git)**: Motor de inventario diseñado para escenarios de alta concurrencia que resuelve condiciones de carrera y sobreventa mediante bloqueo optimista (JPA @Version). Implementado con Java 21, Spring Boot, PostgreSQL (Flyway para migraciones), y un frontend en React + Vite; incluye simulador de concurrencia, manejo de conflictos (409 Conflict) y despliegue con Docker.
+- ⚙️ **[Motor de Gestión de Inventario (Bloqueo Optimista)](https://github.com/LisandroGomez10/motor-gestion-inventario-bloqueo-optimista.git)**: Motor de inventario diseñado para escenarios de [...]
 
