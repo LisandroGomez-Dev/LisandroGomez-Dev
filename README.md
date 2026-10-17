@@ -44,7 +44,9 @@ Repositorio: https://github.com/LisandroGomez-Dev/motor-gestion-inventario-bloqu
 
 ---
 
-### TurnoFácil
+### TurnoFácil 
+
+Proyecto en equipo. Fork del repositorio original de XyonaX.
 
 Sistema de reserva de turnos con flujo de pago y estados de transacción. Participé en el backend, donde implementé la lógica principal del manejo de reservas y pagos.
 
@@ -62,6 +64,8 @@ Repositorio: https://github.com/LisandroGomez-Dev/sistema-turnos-isii-grupo38
 ---
 
 ### Sistema de gestión tipo ERP
+
+Proyecto en equipo. Fork del repositorio original de XyonaX.
 
 Aplicación de escritorio desarrollada en C# con arquitectura en capas para la gestión de ventas, inventario y reportes. El proyecto está orientado a la separación de responsabilidades, la reutilización de lógica y una estructura clara para el negocio.
 
