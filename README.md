@@ -1,41 +1,56 @@
-# ¡Hola! Soy Lisandro Gomez 👋
-
-Desarrollador enfocado en construir soluciones robustas y eficientes en el backend, con especial interés en el diseño de arquitecturas limpias y bases de datos optimizadas.
+# Lisandro Gomez — Analista en Sistemas de Información (UNNE, FACENA)
+Cursando la Licenciatura en Sistemas de Información. Busco posición como Desarrollador Jr. (backend / full stack) — modalidad: remoto / híbrido / presencial. Ubicación: Corrientes, Argentina.
 
 ## 🚀 Sobre mí
-- 🎓 Estudiante de Licenciatura en Sistemas de Información.
-- 💻 Actualmente enfocado en perfeccionar mis habilidades en el Desarrollo de Software.
-- 🛠️ Me apasiona la arquitectura de software (Clean Architecture, capas) y el modelado de bases de datos bien normalizadas.
+- Estudiante y desarrollador con foco en backend, arquitecturas en capas y modelado de datos.
+- Interés en concurrencia, control de versiones de datos y patrones de diseño.
+- Práctica en diseño de APIs REST e integración con bases de datos relacionales.
 
-## 🛠️ Tecnologías y Herramientas
+## 🛠️ Stack técnico
+| Categoría | Tecnologías |
+|---|---|
+| Backend | Java, Spring Boot, JPA/Hibernate, C# (.NET), Node.js, Express, TypeORM |
+| Frontend | React, Next.js, TypeScript, JavaScript, Tailwind CSS, Vite |
+| Bases de datos | PostgreSQL, MySQL, SQL Server, Flyway |
+| Herramientas | Git, GitHub, Docker, Maven, Visual Studio, Trello |
+| Ingeniería de software | UML, patrones de diseño (State, Strategy, Adapter, Repository), Scrum |
 
-A lo largo de mi formación y proyectos, he trabajado y desarrollado soluciones con las siguientes tecnologías:
+## 📌 Proyectos destacados
 
-### 🖥️ Backend & Desktop
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+### Motor de Gestión de Inventario con Bloqueo Optimista
+API REST en Java 21 y Spring Boot 3 que evita la sobreventa y las condiciones de carrera con control de concurrencia optimista. Incluye simulador en React para generar peticiones concurrentes y mostrar conflictos.
+Stack: Java 21, Spring Boot 3, JPA/Hibernate, PostgreSQL, Flyway, Docker Compose, React.
+- Control de concurrencia optimista usando @Version en JPA/Hibernate.
+- Respuesta 409 Conflict ante versiones desactualizadas para manejar conflictos.
+- Migraciones con Flyway y despliegue local con Docker Compose; simulador para pruebas concurrentes.
 
-### 🌐 Frontend & Web Development
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+<!-- INSERTAR CAPTURA O GIF -->
 
-### 🗄️ Bases de Datos (Modelado y Normalización)
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-11355c?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgresql-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+Repositorio: https://github.com/LisandroGomez-Dev/motor-gestion-inventario-bloqueo-optimista
 
-### 🛠️ Herramientas & Entornos
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+---
 
-## 📌 Proyectos Destacados
-- 📦 **[Sistema de Inventario](https://github.com/XyonaX/Proyecto-TallerProgramacion2.git)**: Aplicación de escritorio desarrollada en **C#** con **Windows Forms**, enfocada en el control de stock [...]
-- 📆 **[TurnoFacil](https://github.com/XyonaX/sistema-turnos-isii-grupo38.git)**: Sistema de turnos optimizado.
-- ⚙️ **[Motor de Gestión de Inventario (Bloqueo Optimista)](https://github.com/LisandroGomez10/motor-gestion-inventario-bloqueo-optimista.git)**: Motor de inventario diseñado para escenarios de [...]
+### TurnoFácil (Proyecto en equipo)
+Sistema de reserva de turnos con flujo de pago y estados de transacción; participé en el backend.
+Stack: Next.js 14, Express, TypeScript, TypeORM, MySQL, Mercado Pago.
+- Flujo de pago con estados PAGO_PENDIENTE, CONFIRMADO y CANCELADO.
+- Implementación de la lógica de backend para manejo de reservas y pagos.
+- Aplicación de patrones State y Strategy para modelar estados y comportamientos de pago.
 
+Repositorio: https://github.com/XyonaX/sistema-turnos-isii-grupo38
+
+---
+
+### Sistema de gestión tipo ERP (Proyecto en equipo)
+Aplicación de escritorio en C# con arquitectura en capas para la gestión de ventas, inventario y reportes.
+Stack: C#, .NET Framework 4.7.2, WinForms, SQL Server.
+- Arquitectura en capas: UI, Domain, Data, Services; patrón Repository aplicado.
+- Funcionalidades: login con BCrypt, backups, módulos de ventas, productos, clientes e inventario.
+- Enfoque en separación de responsabilidades y pruebas de negocio.
+Mi aporte: Participé en el desarrollo; detalles no especificados.
+
+Repositorio: https://github.com/XyonaX/Proyecto-TallerProgramacion2
+
+## ✉️ Contacto
+- LinkedIn: https://www.linkedin.com/in/lisandro-gomez-041083327/
+- Email: lisandroygomezhertler.99@gmail.com
