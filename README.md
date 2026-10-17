@@ -1,4 +1,4 @@
-# Lisandro Gómez | Analista en Sistemas de Información (UNNE, FACENA)
+# Lisandro Gomez | Analista en Sistemas de Información (UNNE, FACENA)
 
 Estudiante de la Licenciatura en Sistemas de Información con interés en el desarrollo backend y full stack. Busco incorporarme como Desarrollador Junior en proyectos donde pueda aportar en diseño de software, APIs, bases de datos y soluciones escalables. Disponibilidad para trabajar en modalidad remota, híbrida o presencial. Ubicación: Corrientes, Argentina.
 
