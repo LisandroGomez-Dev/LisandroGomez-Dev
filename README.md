@@ -1,7 +1,7 @@
 # Lisandro Gomez | Desarrollador Backend Java Jr.
 
 **Java 21 · Spring Boot 3 · Spring Data JPA · PostgreSQL · Flyway · JUnit 5 · Docker**  
-Analista en Sistemas de Información (FACENA – UNNE) · Corrientes, Argentina
+Analista en Sistemas de Información (FACENA – UNNE) · Argentina
 
 Busco mi primera oportunidad como **Desarrollador Backend Java Jr.** para aportar código limpio, testeado y mantenible dentro de un equipo de ingeniería. Me especializo en el desarrollo de APIs REST con **Java y Spring Boot**, poniendo foco en la integridad de los datos: control de concurrencia, transacciones, manejo centralizado de errores y pruebas unitarias.
 
@@ -70,4 +70,4 @@ API REST transaccional diseñada para prevenir la sobreventa y las condiciones d
 
 - **LinkedIn:** [linkedin.com/in/lisandro-gomez-041083327](https://www.linkedin.com/in/lisandro-gomez-041083327/)
 - **Email:** lisandroygomezhertler.99@gmail.com
-- **Disponibilidad:** Full-time / Part-time · Remoto o Híbrido (Corrientes, Argentina)
+- **Disponibilidad:** Full-time / Part-time · Remoto, híbrido o presencial (disponibilidad para relocalización)
