@@ -42,7 +42,8 @@ Plataforma multi-negocio para gestión de reservas con seña previa obligatoria,
 - **Patrones y dominio:** Máquina de estados con patrón **State** (`EstadoTurno`, 7 estados), liquidación de saldos en mostrador con **Strategy** (`Efectivo`, `Transferencia`, `Tarjeta`, `Mercado Pago`), **Factory Method** y 25 DTOs con **Java Records**.
 - **Automatización y testing:** Tarea programada (`@Scheduled`) para expirar reservas impagas tras 10 minutos, cálculo de disponibilidad sin tiempos muertos y suite de tests unitarios con **JUnit 5 y Mockito**.
 
-🔗 **Repositorio:** [LisandroGomez-Dev/Saas-Turnos](https://github.com/LisandroGomez-Dev/Saas-Turnos)
+🔗 **Repositorio:** [LisandroGomez-Dev/Saas-Turnos](https://github.com/LisandroGomez-Dev/Saas-Turnos) · 🌐 **Demo en Vivo:** [saas-turnos-six.vercel.app](https://saas-turnos-six.vercel.app) *(PIN Admin: `1234`)* · 📄 **Swagger API:** [saas-turnos-backend.onrender.com/swagger-ui.html](https://saas-turnos-backend.onrender.com/swagger-ui.html)  
+<sub>Nota: El backend demo en Render (tier gratuito) puede demorar ~30–50s en la primera petición si estaba en reposo.</sub>
 
 ---
 
