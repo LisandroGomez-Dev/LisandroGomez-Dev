@@ -1,7 +1,7 @@
 # Lisandro Gomez | Desarrollador Backend Java Jr.
 
 **Java 21 · Spring Boot 3 · Spring Data JPA · PostgreSQL · Flyway · JUnit 5 · Docker**  
-Analista en Sistemas de Información (FACENA – UNNE) · Argentina
+Analista Programador Universitario (FACENA – UNNE) · Argentina
 
 Busco mi primera oportunidad como **Desarrollador Backend Java Jr.** para aportar código limpio, testeado y mantenible dentro de un equipo de ingeniería. Me especializo en el desarrollo de APIs REST con **Java y Spring Boot**, poniendo foco en la integridad de los datos: control de concurrencia, transacciones, manejo centralizado de errores y pruebas unitarias.
 
@@ -61,7 +61,7 @@ API REST transaccional diseñada para prevenir la sobreventa y las condiciones d
 
 ## 🎓 Educación
 
-- **Analista en Sistemas de Información** *(Título Intermedio Finalizado)* — FACENA, Universidad Nacional del Nordeste (UNNE) · *2023 – 2026*
+- **Analista Programador Universitario** *(Título Intermedio Finalizado — en trámite)* — FACENA, Universidad Nacional del Nordeste (UNNE) · *2023 – 2026*
 - **Licenciatura en Sistemas de Información** *(En curso)* — FACENA, Universidad Nacional del Nordeste (UNNE) · *2023 – Actualidad*
 
 ---
