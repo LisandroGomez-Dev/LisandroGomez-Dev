@@ -1,60 +1,53 @@
-# Lisandro Gomez | Desarrollador Backend Java Jr.
+# Lisandro Gomez | Analista Programador Universitario
+**Analista Funcional IT · Analista de Sistemas Jr.**  
+FACENA – Universidad Nacional del Nordeste (UNNE) · Argentina
 
-**Java 21 · Spring Boot 3 · Spring Data JPA · PostgreSQL · Flyway · JUnit 5 · Docker**  
-Analista Programador Universitario (FACENA – UNNE) · Argentina
-
-Busco mi primera oportunidad como **Desarrollador Backend Java Jr.** para aportar código limpio, testeado y mantenible dentro de un equipo de ingeniería. Me especializo en el desarrollo de APIs REST con **Java y Spring Boot**, poniendo foco en la integridad de los datos: control de concurrencia, transacciones, manejo centralizado de errores y pruebas unitarias.
-
----
-
-## 🧠 Enfoque de Ingeniería Backend
-
-- **Arquitectura y POO:** Diseño en capas (`domain`, `application`, `infrastructure`), modelo de dominio rico con encapsulamiento estricto y DTOs inmutables con **Java Records**.
-- **Patrones de Diseño:** Aplicación práctica de *State*, *Strategy*, *Factory Method* y *Repository*.
-- **Persistencia e Integridad:** **Spring Data JPA / Hibernate**, migraciones versionadas con **Flyway**, restricciones relacionales en **PostgreSQL** y control de concurrencia con bloqueo optimista (`@Version`).
-- **Calidad y Resiliencia:** Pruebas unitarias de servicios con **JUnit 5 y Mockito**, manejo global de excepciones (`@RestControllerAdvice` + `ProblemDetail` RFC 7807) e integración segura de webhooks idempotentes (`HMAC-SHA256`).
-- **Metodología:** Experiencia trabajando en equipo bajo **Scrum** y modelado con **UML**.
+Analista Programador Universitario (UNNE) y estudiante avanzado de la Licenciatura en Sistemas de Información, orientado al **análisis funcional, relevamiento de requerimientos y mejora de procesos** mediante soluciones de software. Cuento con formación en Ingeniería de Software, Administración y Gestión de Organizaciones, UML y Bases de Datos SQL, además de práctica diseñando e implementando sistemas completos desde cero bajo metodología **Scrum**.
 
 ---
 
-## 🛠️ Stack Técnico
+## 🧠 Enfoque en Análisis Funcional y Diseño de Sistemas
 
-| Categoría | Tecnologías |
+- **Análisis Funcional:** Relevamiento de requerimientos, historias de usuario, casos de uso, diagramación **UML**, modelado de reglas de negocio y análisis de procesos organizacionales.
+- **Gestión y Metodologías:** Metodologías ágiles (**Scrum**), planificación y seguimiento de tareas, documentación funcional y técnica, trabajo en equipo interdisciplinario.
+- **Datos y SQL:** Consultas SQL, modelado relacional (DER), **PostgreSQL**, MySQL, SQL Server, análisis de métricas e indicadores operativos (KPIs).
+- **Testing y QA Funcional:** Pruebas funcionales end-to-end, validación de flujos y casos borde, documentación **OpenAPI / Swagger**, pruebas con **Postman**, JUnit 5 y Mockito.
+- **Base Técnica de Sistemas:** Java (17 / 21), Spring Boot 3, APIs REST, integración de pagos (Mercado Pago), Git, GitHub, React, TypeScript y Docker.
+
+---
+
+## 🛠️ Competencias Funcionales y Técnicas
+
+| Área | Herramientas y Conocimientos |
 | :--- | :--- |
-| **Lenguajes** | Java (Java 17 / Java 21), SQL |
-| **Backend Java** | Spring Boot 3, Spring Web (APIs REST), Spring Data JPA, Hibernate, Jakarta Bean Validation, Spring Scheduling, Spring Boot Actuator, Maven |
-| **Bases de Datos** | PostgreSQL, MySQL, SQL Server, Flyway (migraciones versionadas) |
-| **Testing** | JUnit 5, Mockito |
-| **Infraestructura y Herramientas** | Git, GitHub, Docker, Docker Compose, Postman, Scrum, UML |
-| **Frontend Complementario** | React, TypeScript, Tailwind CSS (para construir clientes que consumen mis APIs) |
+| **Análisis Funcional** | Relevamiento de requerimientos, Historias de usuario, Casos de uso, UML, Reglas de negocio, Análisis de procesos |
+| **Gestión y Metodologías** | Scrum, Documentación funcional y técnica, Planificación y seguimiento |
+| **Datos y SQL** | PostgreSQL, MySQL, SQL Server, Modelado relacional (DER), Consultas SQL, KPIs |
+| **Testing y QA Funcional** | Pruebas end-to-end, OpenAPI / Swagger, Postman, JUnit 5, Mockito |
+| **Base Técnica** | Java (17 / 21), Spring Boot 3, APIs REST, Mercado Pago, Git, GitHub, React, TypeScript, Docker |
 
 ---
 
-## 📌 Proyectos Destacados (Java + Spring Boot)
+## 📌 Proyectos de Análisis y Desarrollo de Sistemas
 
-### 1. SaaS de Turnos Online y Control de Caja — API REST con Pagos
-Plataforma multi-negocio para gestión de reservas con seña previa obligatoria, protección contra ausentismo y métricas financieras de caja en tiempo real.
+### 1. Sistema de Turnos Online, Agenda y Control de Caja (SaaS)
+*Relevamiento funcional y diseño de sistema*
 
-**Stack:** `Java 21` · `Spring Boot 3.3` · `Spring Data JPA` · `Hibernate` · `PostgreSQL 16` · `Flyway` · `JUnit 5` · `Mockito` · `Docker` · `React`
-
-- **Control de concurrencia (`@Version`):** Previene reservas duplicadas simultáneas sobre un mismo horario, retornando `HTTP 409 Conflict` con `ProblemDetail` (RFC 7807) mediante `@RestControllerAdvice`.
-- **Pagos e idempotencia:** Integración con Mercado Pago Checkout Pro mediante webhook idempotente con verificación criptográfica `HMAC-SHA256` y protección contra *replay attacks* (ventana de 5 minutos), aislando llamadas HTTP externas con `TransactionTemplate` para no retener conexiones del pool HikariCP.
-- **Patrones y dominio:** Máquina de estados con patrón **State** (`EstadoTurno`, 7 estados), liquidación de saldos en mostrador con **Strategy** (`Efectivo`, `Transferencia`, `Tarjeta`, `Mercado Pago`), **Factory Method** y 25 DTOs con **Java Records**.
-- **Automatización y testing:** Tarea programada (`@Scheduled`) para expirar reservas impagas tras 10 minutos, cálculo de disponibilidad sin tiempos muertos y suite de tests unitarios con **JUnit 5 y Mockito**.
+- **Problemática operativa (no-show):** Analicé el ausentismo en reservas y diseñé el flujo funcional de reserva online con seña previa y liberación automática a los 10 minutos.
+- **Reglas de negocio y ciclo de vida:** Modelé el ciclo de vida del turno (7 estados y transiciones válidas), reglas de disponibilidad horaria sin tiempos muertos y liquidación de cobros en mostrador.
+- **Datos, APIs e integraciones:** Diseñé el esquema relacional en **PostgreSQL**, especifiqué endpoints REST en **Swagger/OpenAPI** y validé integraciones críticas de pagos (**Mercado Pago**).
+- **Métricas y QA:** Definí un tablero de control de caja con KPIs de gestión (tasa de ausentismo, ingresos reales, dinero protegido y rendimiento por profesional) y ejecuté pruebas end-to-end.
 
 🔗 **Repositorio:** [LisandroGomez-Dev/Saas-Turnos](https://github.com/LisandroGomez-Dev/Saas-Turnos) · 🌐 **Demo en Vivo:** [saas-turnos-six.vercel.app](https://saas-turnos-six.vercel.app) *(PIN Admin: `1234`)* · 📄 **Swagger API:** [saas-turnos-backend.onrender.com/swagger-ui.html](https://saas-turnos-backend.onrender.com/swagger-ui.html)  
 <sub>Nota: El backend demo en Render (tier gratuito) puede demorar ~30–50s en la primera petición si estaba en reposo.</sub>
 
 ---
 
-### 2. Motor de Gestión de Inventario con Bloqueo Optimista
-API REST transaccional diseñada para prevenir la sobreventa y las condiciones de carrera (*race conditions*) sobre el stock en escenarios de alta concurrencia.
+### 2. Motor de Gestión de Inventario y Control de Stock
+*Análisis funcional e integridad de datos*
 
-**Stack:** `Java 21` · `Spring Boot 3` · `Spring Data JPA` · `Hibernate` · `PostgreSQL` · `Flyway` · `Docker Compose` · `React`
-
-- **Bloqueo optimista (`@Version`):** Detecta colisiones ante lecturas desactualizadas y responde `HTTP 409 Conflict`.
-- **Doble barrera de integridad:** Validaciones en capa de dominio/servicio (`Bean Validation`) + restricción `CHECK (stock >= 0)` a nivel de base de datos PostgreSQL.
-- **Entorno reproducible:** Esquema versionado con **Flyway** y orquestación con **Docker Compose**, acompañado de un cliente simulador en React que dispara peticiones concurrentes en tiempo real.
+- **Escenarios críticos y reglas transaccionales:** Identifiqué escenarios críticos de sobreventa concurrente y definí reglas de control transaccional y mensajes claros ante conflictos (`HTTP 409 Conflict`).
+- **Integridad de datos y validación:** Modelé la base de datos en **PostgreSQL** con restricciones de integridad (`CHECK`) y construí un simulador web en React para validar casos borde en tiempo real.
 
 🔗 **Repositorio:** [LisandroGomez-Dev/motor-gestion-inventario-bloqueo-optimista](https://github.com/LisandroGomez-Dev/motor-gestion-inventario-bloqueo-optimista)
 
@@ -69,6 +62,6 @@ API REST transaccional diseñada para prevenir la sobreventa y las condiciones d
 
 ## 📬 Contacto y Disponibilidad
 
-- **LinkedIn:** [linkedin.com/in/lisandro-gomez-041083327](https://www.linkedin.com/in/lisandro-gomez-041083327/)
+- **LinkedIn:** [linkedin.com/in/lisandrogomez-af](https://www.linkedin.com/in/lisandrogomez-af/)
 - **Email:** lisandroygomezhertler.99@gmail.com
-- **Disponibilidad:** Full-time / Part-time · Remoto, híbrido o presencial (disponibilidad para relocalización)
+- **Disponibilidad:** Full-time · Presencial, híbrido o remoto (disponibilidad inmediata para relocalización)
